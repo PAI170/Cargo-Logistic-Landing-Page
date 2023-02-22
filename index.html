@@ -11,30 +11,29 @@
 </head>
 <body>
     <header class="wrapper-header">
-        <section class="wrapper-top-bar">
-            <section class="top-bar1">
-                <section class="call-us">
-                    <h3><a href="#"><i class="fa-solid fa-phone"></i> +506 8888 8888 </a></h3>
-                    
-                </section>
-                <section class="mail">
+        <div class="wrapper-top-bar">
+            <ul class="top-bar1">
+                <li class="call-us">
+                    <h3><a href="#"><i class="fa-solid fa-phone"></i> +506 8888 8888 </a></h3>                  
+                </li>
+                <li class="mail">
                     <a href="#"><i class="fa-solid fa-envelope"></i> info@mail.com</a>
-                </section>
-                <section class="location">
+                </li>
+                <li class="location">
                     <a href="#"><i class="fa-solid fa-location-dot"></i> Costa Rica, San Jose</a>
-                </section>
-            </section>
-            <section class="top-bar2">
-                <section class="sucursales">
-                    <label for="sucursales"></label>
+                </li>
+            </ul>
+            <div class="top-bar2">
+                <div class="sucursales">
+                    <label for="sucursales"><i class="fa-solid fa-earth-americas"></i></label>
                     <select name="sucursales" id="sucursales">
                         <option value="sanjose">San Jose</option>
                         <option value="cartago">Cartago</option>
                         <option value="cartago">Heredia</option>
                         <option value="cartago">Alajuela</option>
                     </select>
-                </section>
-                <section class="social-media">
+                </div>
+                <div class="social-media">
                     <h3>Siguenos</h3>
                     <ul>
                         <li>
@@ -47,15 +46,15 @@
                             <a href="#"><i class="fa-brands fa-instagram"></i></a>
                         </li>
                     </ul>
-                </section>
-            </section>
-        </section>
-        <section class="wrapper-nav">
-            <section class="nav-bar">
+                </div>
+            </div>
+        </div>
+        <nav class="wrapper-nav">
+            <div class="nav-bar">
                 <figure class="logo">
                     <img src="/assets/img/logo.png" alt="Imagen del Logo">
                 </figure>
-                <section class="nav-menu">
+                <div class="nav-menu">
                     <ul class="nav-menu-list">
                         <li><a href="#"> Servicios</a></li>
                         <li><a href="#">Programas y beneficios</a></li>
@@ -65,13 +64,24 @@
                         <li><a href="#">Mis Paquetes</a></li>
                         <li><a href="#">Exoneracion</a></li>
                         <li><a href="#">Pago en Linea</a></li>
+                        <li><button class="calc-btn"><img src="/assets/img/calculator-symbols.png" alt="Icono de una calculadora" class="img-calc"><span class="calc-text">Calculadora</span></button></li>
                     </ul>
-                </section>
-                <section class="calculator">
-                    <h3><i class="fa-sharp fa-solid fa-calculator-simple"></i>Calculator</h3>
-                </section>
-            </section>
-        </section>       
+                </div> 
+            </div>
+        </nav>       
     </header>
+    <main class="main-wrapper">
+        <div class="slider">
+            <img id="img-1" src="/assets/img/image-1.jpg" alt="Image 1"/>
+            <img id="img-2" src="/assets/img/image-2.jpg" alt="Image 2"/>
+            <img id="img-3" src="/assets/img/image-3.jpg" alt="Image 3"/>
+          </div>
+          <div class="navigation-button">
+            <span class="dot active" onclick="changeSlide(0)"></span>
+            <span class="dot" onclick="changeSlide(1)"></span>
+            <span class="dot" onclick="changeSlide(2)"></span>
+          </div>
+    </main>
+    <script src="/assets/js/javascript.js"></script>
 </body>
 </html>
