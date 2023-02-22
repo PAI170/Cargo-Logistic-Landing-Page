@@ -21,3 +21,11 @@ if (n != undefined) {
     imgs[currentImg].style.opacity = 1;
     dots[currentImg].className += ' active';
   }
+
+  let enlaces = document.querySelectorAll("a");
+
+for (let i = 0; i < enlaces.length; i++) {
+  enlaces[i].addEventListener("click", function(event) {
+    event.preventDefault();
+  });
+}
