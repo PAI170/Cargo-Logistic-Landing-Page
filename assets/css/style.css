@@ -10,6 +10,11 @@ html {
     width: 100%;
 }
 
+.main-content {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
 /* Diseno del Top Bar */
 .wrapper-top-bar {
     background-color: #a2a6ac;
@@ -236,6 +241,7 @@ html {
     max-width: 1920px;
     background-color: #fafafa;
     padding-bottom: 20rem;
+    background-image: url(/assets/img/fact_bg.jpg);
   }
 
   .news-title {
@@ -314,7 +320,6 @@ html {
 
  .footer-wrapper {
   width: 100%;
-  max-width: 1920px;
   background-image: url(/assets/img/footer-bg.jpg);
  }
 
@@ -324,6 +329,8 @@ html {
   gap: 40px;
   padding-top: 4rem;
   padding-bottom: 5rem;
+  max-width: 1920px;
+  margin: 0 auto;
  }
 
  .footer-info, .footer-posts, .footer-links, .footer-support {
@@ -419,11 +426,16 @@ html {
   gap: 2rem;
  }
 
+ .footer-copyright-wrapper, main {
+  width: 100%;
+ }
+
  .footer-copyright {
-  background-color: black;
   display: flex;
   justify-content: space-around;
   padding-bottom: 3rem;
+  max-width: 1920px;
+  margin: 0 auto;
  }
 
  .footer-copyrights-text {
