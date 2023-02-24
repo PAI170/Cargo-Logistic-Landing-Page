@@ -235,7 +235,7 @@ html {
     padding-top: 2rem;
     max-width: 1920px;
     background-color: #fafafa;
-    padding-bottom: 2rem;
+    padding-bottom: 20rem;
   }
 
   .news-title {
@@ -297,6 +297,7 @@ html {
  .new-read-more {
   text-align: center;
   font-size:1.4rem ;
+  padding-bottom: 2rem;
  }
 
  .read-more {
@@ -305,4 +306,140 @@ html {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
   text-transform: uppercase;
+ }
+
+ /* Fin del diseño de la seccion noticias */
+
+ /* Inicio del diseño del footer */
+
+ .footer-wrapper {
+  width: 100%;
+  max-width: 1920px;
+  background-image: url(/assets/img/footer-bg.jpg);
+ }
+
+ .footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+ }
+
+ .footer-info, .footer-posts, .footer-links, .footer-support {
+  max-width: 325px;
+ }
+
+ .footer-logo img {
+  width: 15rem;
+ }
+
+ .footer-description {
+    font-size: 1.6rem;
+    line-height: 30px;
+    color: #969696;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 2.5rem;
+ }
+
+ .footer-social-media ul {
+  display: flex;
+  color: #858594;
+  gap: 20px;
+ }
+
+ .footer-social-media a {
+  color: #858594;
+  font-size: 3rem;
+ }
+
+ .footer-posts-title {
+  color: #c3c3c4;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.8rem;
+  padding-bottom: 2rem;
+  font-weight: 600;
+ }
+
+ .footer-post1, .footer-post2 {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 2rem;
+ }
+
+ .footer-posts-content h6 {
+  color: #858594;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
+  padding-bottom: 10px;
+ }
+
+ .footer-posts-content a {
+  color: #858594;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+ }
+
+ .footer-link-title {
+  color: #c3c3c4;
+  font-size: 1.8rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  padding-bottom: 2rem;
+ }
+
+ .footer-menu-links a {
+  color: #858594;
+  text-decoration: none;
+  font-size: 1.6rem;
+  line-height: 2;
+  font-family: 'Open Sans', sans-serif;
+ }
+
+ .footer-support-title {
+  color: #c3c3c4;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding-bottom: 2rem;
+ }
+
+ .footer-support-text {
+  color: #858594;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
+  line-height: 2;
+  padding-bottom: 2rem;
+ }
+
+ .footer-support-btn-download ul {
+  display: flex;
+  gap: 2rem;
+ }
+
+ .footer-copyright {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3rem;
+ }
+
+ .footer-copyrights-text {
+  color: #858594;
+  font-size: 1.6rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 4rem;
+ }
+ .footer-copyrights-text span {
+  color: #b0d135;
+ }
+
+ .footer-copyrights-payment ul {
+  color: #858594;
+  display: flex;
+  gap: 3rem;
+  padding-top: 3rem;
+  font-size: 4rem;
  }
